@@ -15,10 +15,17 @@ abstract public class Duck {
     }
 
     /**
-     * The display () method is declared abstract 
+     * Ability to fly.
+     */
+    public void fly() {
+        System.out.println(this.getClass().getSimpleName() + " is flying");
+    }
+    
+    /**
+     * The display() method is declared abstract 
      * because all subtypes are displayed differently.
      * 
-     * The subtype of each particular kind implements its specific version of display ().
+     * The subtype of each particular kind implements its specific version of display().
      */
     abstract public void display();
 }
