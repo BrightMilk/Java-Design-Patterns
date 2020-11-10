@@ -9,17 +9,6 @@ abstract public class Duck {
     public void swim() {
         System.out.println("I can swim");
     }
-
-    public void quack() {
-        System.out.println("Quack");
-    }
-
-    /**
-     * Ability to fly.
-     */
-    public void fly() {
-        System.out.println(this.getClass().getSimpleName() + " is flying");
-    }
     
     /**
      * The display() method is declared abstract 
