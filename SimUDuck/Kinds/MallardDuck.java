@@ -1,7 +1,6 @@
-package SimUDuck;
+package SimUDuck.Kinds;
 
-import SimUDuck.Interfaces.Flyable;
-import SimUDuck.Interfaces.Quackable;
+import SimUDuck.Interfaces.*;
 
 public class MallardDuck extends Duck implements Flyable, Quackable {
     

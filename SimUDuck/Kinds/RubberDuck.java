@@ -1,4 +1,4 @@
-package SimUDuck;
+package SimUDuck.Kinds;
 
 import SimUDuck.Interfaces.*;
 
